@@ -7,7 +7,7 @@ export default function App() {
             <h1>Lista de Exercícios</h1>
             <ol type='1'>
                 <li>
-                    <Link to="/primeiraAtividade">Atividade 1: Criar componente de página Home</Link>
+                    <Link to="/primeiraAtividade">Atividade 1: Criar componente de página Home</Link>  
                 </li>
                 <li>
                     <Link to="/segundaAtividade">Atividade 2: Criar estado para lista de produtos</Link>
