@@ -37,7 +37,10 @@
 // No valor do `onClick`, chame a função `removerItemPedidos`.
 // Passe o identificador (`id`) do item como parâmetro para `removerItemPedidos`, o mesmo que você usa no `map`.
 // No conteúdo do botão, coloque o texto "Remover".
+
 import { useState } from "react";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 export default function Home() {
     const [listaProdutos, setProdutos] = useState([
@@ -82,8 +85,12 @@ export default function Home() {
 
 
  return (
+    
     <div>
+        <Header title={'Deus é bom'}/>
         <h1>Imagination Books!</h1>
+        <Footer desenvolvedor={"O tempo todo"}/>
+         
 
         {
           listaProdutos.map((produto) =>
